@@ -1,0 +1,525 @@
+/* global */
+html .home_page{
+    width:1024px;
+    height:940px;
+    margin:auto;
+    background-color: #e5e5e5;
+    box-sizing: border-box;
+}
+html .login_page{
+    width:1024px;
+    height:940px;
+    margin:auto;
+    background-color: #e5e5e5;
+    box-sizing: border-box;
+}
+html .user_page{
+    width:1200px;
+    height:3000px;
+    margin:auto;
+    background-color: #7c6f4c;
+    box-sizing: border-box;
+}
+
+
+/*header*/
+.body{
+    width: 1200px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#fff7e6;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width:1200px;
+    background-color: rgba(231,95,95,0.9);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.header .nav{
+    display: flex;
+    align-items: flex-end;
+    margin-left: 250px;
+}
+.header .nav .btn{
+    margin-left: 5px;
+}
+.search{
+    max-width:1200px;
+    position:absolute;
+    margin-top: 198px;
+    width: 1200px;
+    height: 224px;
+    top: 20px;
+    background: rgba(62, 42, 42, 0.75);
+}
+.option{
+    max-width:1200px;
+    position:absolute;
+    margin-top: 68px;
+    margin-left:480px ;
+    width: 1200px;
+    height: 224px;
+    top: 20px;
+}
+.choice{
+    max-width:1200px;
+    position:absolute;
+    margin-left:400px ;
+    margin-top: 100px;
+    width: 1200px;
+    height: 224px;
+    top: 20px;
+    outline: blanchedalmond;
+    color:white
+}
+
+
+/*main area*/
+
+.btn {
+    background-color:rgba(231,95,95,0.9); 
+    border: none; 
+    color: black;
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    align-items: center; 
+  }
+  
+.btn:hover {
+    background-color: rgba(211, 88, 88, 0.9);
+  }
+  .others{
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-top: 52px;
+    justify-content: space-around;
+}
+.btn2 {
+    background-color:white; 
+    color: black;
+    width:116px;
+    height:39px;
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer;  
+    outline:3px;
+  }
+.btn2:hover {
+    background-color:white(211, 88, 88, 0.5);
+}
+  .search_bar{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}  
+.search_bar_background{
+    margin-top: 14px;
+    display: flex;
+    flex-direction: row;
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+    height: 462px;
+    background-image:url( "https://img.onl/Pgcdty" );
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px);
+    top: 60px;
+}  
+.dw{
+    position: absolute;
+    width: 890px;
+    height: 332px;
+    top: 20px;
+    background-color: rgb(255, 175, 175);
+    margin-top: 680px;
+    margin-left:155px ;
+}
+  
+.intro{
+    width: 890px;
+    height: 409px;
+    background-color: rgba(231,95,95,0.9);
+    margin-left: 155px;
+    top: 60px;
+}
+.btn3 {
+    background-color:rgb(255, 255, 255); 
+    border: none; 
+    color: black;
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    align-items: center; 
+    border-radius: 15px;
+    margin-top: 17px;
+    margin-left: 5px;
+  }
+.btn3:hover {
+    background-color: rgba(211, 88, 88, 0.9);
+  }
+  .rec_book{
+    position: absolute;
+    top:10px;
+    width: 890px;
+    margin-left:115px ;
+    margin-top: 750px;
+    margin-right: 25px;
+    display: inline-flex;
+    justify-content: space-around;
+    list-style: none;
+}
+/*footer*/
+.footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+   /*text*/
+    text-align: center;
+    font-size: 85%;  
+    padding-top: 20px;   
+    padding-bottom:  20px;
+    margin-top: 50px;
+
+    background-color: rgba(231,95,95,0.75);
+}
+.user_footer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width:1200px;
+    margin-left:auto;
+    margin-right:auto;
+   /*text*/
+    text-align: center;
+    font-size: 85%;  
+    padding-top: 20px;   
+    padding-bottom:  20px;
+    margin-top: 500px;
+
+    background-color: rgba(231,95,95,0.75);
+}
+
+/*login box*/
+   .login{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 830px;
+        height: 400px;
+        left: 85px;
+        right: 85px;
+        margin: auto;
+        margin-top: 100px;
+        box-sizing: border-box;
+        position: relative;
+}
+    .login_box{
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 280px;
+    left: 110px;
+    top: 235px;
+    align-items: center;
+
+    background: rgba(231,95,95,0.9);
+    border-radius: 11px;
+}
+    .warning{
+        text-align: center;
+        font-size: 85%;
+        font-weight: 700;
+        padding: 20px;   
+        margin-top: 20px;
+
+        background-color: #ffd6d6;
+        border-radius: 20px;
+}
+    .login_box .input {
+        margin-top: 20px;
+}
+    .login_box .input .submit{
+        margin-top: 10px;
+        margin-left: 75px;
+}
+    .login_pic{
+        width: 380px;
+        height: 380px;
+        left: 562px;
+        top: 244px;
+}
+
+
+/*user_info*/
+    .user_info{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+
+        width: 1024px;
+        height: 400px;
+        left: 85px;
+        right: 85px;
+
+        margin-top: 100px;
+}
+    .basis{
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        position: relative;
+        justify-content: space-around;
+    }
+
+
+    .basis .user{
+        display: flex;
+        flex-direction: column;
+    }
+    .basis .user .user_pic{
+        margin: 0 0 0 17px ;
+    }
+
+
+    .basis .mid{
+        display: flex;
+        flex-direction: row;
+        margin-left: 14px;
+    }
+    .basis .mid .record{
+        background-color: rgb(243, 207, 207);
+        border-radius: 13px 0px 0px 13px;
+
+        /*text*/
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+
+        margin: 0 0 0 0;
+        padding: 7px 0 0 22px;
+    }
+    .basis .mid .history{
+        background-color: rgb(243, 207, 207);
+        border-radius: 0px 13px 13px 0px;
+
+        /*text*/
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+
+        margin: 0 0 0 0;
+        padding: 55px 20px 0 12px;
+    }    
+    .basis .mid .ebook_history{
+        background-color: rgb(243, 207, 207);
+        border-radius: 13px;
+
+        /*text*/
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+    
+        margin: 0 0 0 9px;
+        padding: 3px 20px 0 12px;
+    }
+
+/*Card*/
+    .user_info .card_info{
+        display: flex;
+        flex-direction: column; 
+        box-sizing: broder-box;
+
+        background-color: rgb(243, 207, 207);
+        border-radius: 13px;
+
+        /*text*/
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;
+            
+        margin: 9px 800px 0 932px;
+        padding: 3px 23px 0 0;
+    }
+    .user_info .card_info .card_title{
+        display: flex;
+        flex-direction: row; 
+ 
+        /*text*/
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+            
+        margin: 12px 20px 0 20px;
+        padding: 0 0 0 5px;
+    }
+    .card_title h3{
+        margin: 0 0 0 5px;
+        padding: 5px 0 0 10px;
+    }
+    .user_info .card_info .body{
+        display: flex;
+        flex-direction: row; 
+        /*text*/
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;
+            
+        margin: 12px 20px 0 20px;
+    }
+    .card_body{
+        width: 500px;
+        margin-left: 20px;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    .body .a{
+        margin: 0 15px 0 8px;
+        padding: 0 0 0 0;
+    }
+    .body .b{
+        margin: 0 0 0 12px;
+        padding: 0 0 0 0;
+    }
+
+  /*icon*/
+    .icn_bk{
+        width: 10px;
+        height: 10px;
+}
+    .card_pic{
+        width: 39.32px;
+        height: 35.9px;
+}
+    .user_pic{
+        width: 91px;
+        height: 99px;
+}
+    .change_icn{
+        width: 20px;
+        height: 20px;
+}
+
+
+/*options*/
+.body .note .choice{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+
+    max-width: 1200px;
+    height: 1200px;
+    
+    margin-top: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    background: url(https://img.onl/64h131) no-repeat ;
+}
+    .note .choice .left{
+        display: flex;
+        flex-direction: row;
+        margin: 11px;
+    }
+    .note .choice .right{
+        display: flex;
+        flex-direction: row;
+        margin: 11px;
+    }
+
+    .left .text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+    } 
+    .right .text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 25px;
+    } 
+    .left .icn{
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column ;
+    }
+
+    .right .icn{
+        display: flex;
+        flex-direction: column ;
+        box-sizing: border-box;     
+    }
+    .note .choice .icn{
+        display: flex;
+        flex-direction: column; 
+        margin: 11px;
+ 
+    }
+    .choice2 p{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .choice2 .title{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .note{
+        width: 1000px;
+        height: 1200px;
+        background-image:url( "https://img.onl/M2gQaH" );
+        background-size: contain;
+        background-size: cover;
+        background-repeat:no-repeat;
+    }
+    .tag{
+        background-color: #ffd6d6;
+    }
+    .ccc1{
+        list-style: none;
+        display: inline-flex;
+    }
+    .ccc2{
+        list-style: none;
+        display: inline-flex;
+    }
+    .ccc3{
+        list-style: none;
+        display: inline-flex;
+    }
+    .ccc4{
+        list-style: none;
+        display: inline-flex;
+    }
+    .ccc5{
+        list-style: none;
+        display: inline-flex;
+    }
+    .ccc6{
+        list-style: none;
+        display: inline-flex;
+    }
+    .bastard{
+        display: inline-flex;
+        list-style: none;
+    }
+    .left{
+        justify-content: space-around;
+    }
